@@ -27,7 +27,7 @@ function StudentPage(props) {
 
   return (
     <div className="container my-3" style={{ textAlign: "center" }}>
-      <h2 style={{ color: "#1498d2e8" }}>Mohana Mounika</h2>
+      <h2 style={{ color: "#1498d2e8" }}>Sahil Reddy</h2>
       <div
         className="container my-3 rounded"
         style={{

@@ -9,19 +9,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Companies from "./components/Companies";
 import StudentPage from "./components/StudentPage";
 import FacultyPage from "./components/FacultyPage";
+import CompanyDetails from "./components/CompanyDetails";
 // import { useEffect, useState } from "react";
 // import axios from "axios";
 
 function App() {
-  // const [data, setData] = useState("");
-
-  // const getData = async () => {
-  //   const response = await axios.get("http://localhost:5000/StudentSignIn");
-  //   setData(response.data);
-  // };
-  // useEffect(() => {
-  //   getData();
-  // }, []);
   return (
     <>
       <NavBar />
@@ -35,6 +27,7 @@ function App() {
           <Route path="Companies" element={<Companies />} />
           <Route path="StudentPage" element={<StudentPage />} />
           <Route path="FacultyPage" element={<FacultyPage />} />
+          <Route path="CompanyDetails" element={<CompanyDetails />} />
         </Routes>
       </BrowserRouter>
     </>
